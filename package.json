@@ -1,7 +1,8 @@
-{ "homepage":"https://aysi143.github.io/CV-/",
+{ 
   "name": "lesson-1",
   "version": "0.1.0",
   "private": true,
+"homepage":"https://aysi143.github.io/CV-/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
@@ -13,10 +14,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-//...
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
-  //...
+
   "build": "react-scripts build && cp build/index.html build/404.html",
 
     "start": "react-scripts start",
