@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family:  'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin:0;
+  padding:0;
+  overflow: auto;
+  background-color: wheat;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.content{
+  display:flex;
+  flex-direction: row;
+  text-align: left;
+  align-items:start;
+  margin:0 60px
+}
+.content h1{
+  margin: 20px 40px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.dots{
+  height:15px;
+  width:15px;
+  background-color:red;
+  border-radius:50%;
+  display:inline-block
+}
+.disk{
+  height:11px;
+  width:11px;
+  border: 2px solid orchid;
+  background-color:wheat;
+  border-radius:50%;
+  display:inline-block
+}
+.content-area{
+  margin-left: 70px;
+}
+.soft,.lang{
+  display: flex;
+  margin: 10px 20px;
+}
+.lang p, .soft p{
+  margin: 10px 20px
+  
+}
+.content-area button{
+  padding: 5px 8px;;
+  margin: 10px;
+  font-weight: bold;
+}
+.contents-area{
+  margin: 0 130px;
+  display: table-column
+}
+
